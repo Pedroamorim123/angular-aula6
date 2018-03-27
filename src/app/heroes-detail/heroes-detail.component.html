@@ -1,0 +1,23 @@
+<div class="container card" *ngIf="hero">
+  <h2>
+    heroes works! {{Hero.name}}
+  </h2>
+  <div>
+    <span>Id</span>
+    {{Hero.id}}
+  </div>
+  <div>
+    <span>Nome</span>
+    {{Hero.name}}
+  </div>
+  <div>
+  
+  <label>nome:</label>
+  <input [(ngModel)]="hero.name" />
+  
+  </div>
+  <!--
+    importar FormsModule em app.module.ts
+  -->
+  </div>
+  
